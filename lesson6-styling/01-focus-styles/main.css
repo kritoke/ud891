@@ -26,15 +26,20 @@ a:focus {
     color: #FFFFFF;
 }
 
-.jumbotron .mdl-button:focus {
+.jumbotron .mdl-button:focus,
+.jumbotron .mdl-button:hover {
     border: 3px dashed #0f0;
     box-shadow: 3px 5px #888888;
     transform: translateY(-0.25em);
 }
 
-.mdl-button:focus {
+.mdl-button.raised:focus,
+.mdl-button.raised:hover,
+.nav .mdl-button:focus,
+.nav .mdl-button:hover {
     transform: translateY(-0.25em);
     border: 2px dashed green;
+    text-decoration: underline;
 }
 
 .mdl-button.raised {
